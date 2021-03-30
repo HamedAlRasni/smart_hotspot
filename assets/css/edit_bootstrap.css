@@ -1,0 +1,20 @@
+/*
+    Theme Name  : EiletHotspot
+    Theme Coder : Eng.HaMeD +(967)736246282
+*/
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-left: 15px;
+/*    color: #08526d*/
+}
+
+.navbar-nav .active > .nav-link {
+/*    color: #575656 !important;*/
+    font-weight: bold
+}
+.navbar-dark .navbar-nav .nav-link
+{
+     cursor: pointer;
+}

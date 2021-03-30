@@ -1,0 +1,271 @@
+/*
+    Theme Name  : EiletHotspot
+    Theme Coder : Eng.HaMeD +(967)736246282
+*/
+
+@font-face {
+  font-family: 'DroidArabicKufi';
+  src: url('../fonts/DroidArabicKufi.eot'); /* IE9+ Compat Modes */
+  src: url('../fonts/DroidArabicKufi.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/DroidArabicKufi.woff2') format('woff2'), /* Super modern browsers */
+       url('../fonts/DroidArabicKufi.woff') format('woff'), /* Modern browsers */
+       url('../fonts/DroidArabicKufi.ttf')  format('truetype'); /* Safari, Android, iOS */
+/*       url('../fonts/DroidArabicKufi.svg#FontName') format('svg');  Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+
+}
+*
+{
+    font-family: 'DroidArabicKufi', sans-serif
+}
+
+.center
+{
+    text-align: center
+}
+.H70
+{
+    font-size: 70%
+}
+/*Star  Navbar*/
+.navbar-brand > span {
+    font-weight: bold;
+    font-size: xx-large;
+    color: #fff
+}
+
+.navbar-brand span:first-child {
+    color: #fff
+}
+
+.navbar-brand span:last-child {
+    color: #000
+}
+
+/*End   Navbar*/
+/*Start   Slider*/
+.slider
+{
+    background-color: #ddd
+}
+/*End   slider*/
+
+
+
+/**/
+
+.cod
+{
+    font-weight:900;
+    font-size: x-large;
+/*    padding-top: 35px*/
+}
+.codd
+{
+    font-weight:900;
+    font-size: x-large;
+}
+
+.tit1
+{
+    color: aliceblue
+}
+.text-balck {
+    color: #000000 !important;
+}
+.text-white {
+    color: #ffffff !important;
+}
+.text-red {
+    color: red !important;
+}
+
+.navbar-dark .navbar-toggler
+{
+border-color: rgba(255, 255, 255, 0.64);
+}
+
+.jumbotron.time
+{
+    font-size:smaller;
+    padding: 15px
+}
+.b
+{
+    font-weight: bold
+}
+.header {
+margin-top: 78px;
+}
+.ad
+{
+    height: 30%
+}
+@media (min-width: 1200px){
+.con2
+{
+    width: 70%;
+
+}
+}
+
+larger
+{
+    font-size: 10%;
+}
+/*price*/
+
+#price {
+  text-align: center;
+}
+
+.plan {
+  display: inline-block;
+  margin: 10px 1%;
+}
+.plann {
+/*  display: inline-block;*/
+  margin: 10px 1%;
+}
+
+.plan-inner {
+/*  background: #fff;*/
+  margin: 0 auto;
+  min-width: 280px;
+  max-width: 100%;
+  position:relative;
+    border-radius: 50px
+}
+
+.entry-title {
+/*  background: #53CFE9;*/
+  height: 100px;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+    border-radius: 50px
+}
+
+.entry-title>h3 {
+/*  background: #20BADA;*/
+  font-size: 20px;
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0;
+}
+
+.entry-title .price {
+  position: absolute;
+  bottom: -35px;
+/*  background: #20BADA;*/
+  height: 95px;
+  width: 95px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  border-radius: 50px;
+  border: 5px solid #fff;
+  line-height: 80px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.price span {
+  position: absolute;
+  font-size: 9px;
+  bottom: -10px;
+  left: 30px;
+  font-weight: 400;
+}
+
+.entry-content {
+  color: #323232;
+}
+
+.entry-content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.entry-content li {
+  border-bottom: 1px solid #E5E5E5;
+  padding: 10px 0;
+}
+
+.entry-content li:last-child {
+  border: none;
+}
+
+.hot {
+    position: absolute;
+    top: -7px;
+    background: #F80;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 2;
+    padding: 2px 5px;
+    font-size: 9px;
+    border-radius: 2px;
+    right: 10px;
+    font-weight: 700;
+}
+.basic .entry-title {
+  background: #75DDD9;
+}
+
+.basic .entry-title > h3 {
+/*  background: #44CBC6;*/
+}
+
+.basic .price {
+  background: #44CBC6;
+}
+
+.standard .entry-title {
+  background: #4484c1;
+}
+
+.standard .entry-title > h3 {
+/*  background: #3772aa;*/
+}
+
+.standard .price {
+  background: #3772aa;
+}
+
+.ultimite .entry-title > h3 {
+/*  background: #DD4B5E;*/
+}
+
+.ultimite .entry-title {
+  background: #F75C70;
+}
+
+.ultimite .price {
+  background: #DD4B5E;
+}
+/*price*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
